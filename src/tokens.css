@@ -1,0 +1,38 @@
+/*
+ * 全国もちもちうどん連盟 デザインシステム — デザイントークン
+ * Tailwind の有無にかかわらず、このファイルを読み込めば CSS 変数として使える。
+ */
+:root {
+  --udon-bg: #ffffff;
+  --udon-panel: #e5e1da;
+  --udon-line: #e2d3bc;
+  --udon-line-strong: #c6c2ba;
+
+  --udon-text: #3a2a1c;
+  --udon-muted: #6b5744;
+
+  --udon-primary: #99661a;
+  --udon-secondary: #e9d0a6;
+  --udon-accent: #c8452d;
+
+  --udon-success: #2f6b45;
+  --udon-info: #2f5f7a;
+
+  --udon-radius-sm: 4px;
+  --udon-radius-md: 8px;
+  --udon-radius-lg: 12px;
+
+  --udon-font-heading: "Zen Kaku Gothic New", "Hiragino Sans", sans-serif;
+  --udon-font-body: "Noto Sans JP", "Hiragino Sans", sans-serif;
+  --udon-font-mono: "M PLUS 1 Code", ui-monospace, monospace;
+
+  --udon-shadow-sm: 0 1px 2px rgba(58, 42, 28, 0.06);
+  --udon-shadow-md: 0 8px 20px rgba(58, 42, 28, 0.1);
+
+  --udon-focus-ring: 0 0 0 2px var(--udon-bg), 0 0 0 4px var(--udon-accent);
+}
+
+.udon-focus:focus-visible {
+  outline: 2px solid var(--udon-accent);
+  outline-offset: 2px;
+}
